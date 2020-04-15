@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/astc_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_common_db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_shangpin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_service_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_shangpin_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_web" charset="UTF-8" />
+  </component>
+</project>

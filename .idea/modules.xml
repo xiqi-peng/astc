@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_common/astc_common.iml" filepath="$PROJECT_DIR$/astc_parent/astc_common/astc_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_common_db/astc_common_db.iml" filepath="$PROJECT_DIR$/astc_parent/astc_common_db/astc_common_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_eureka/astc_eureka.iml" filepath="$PROJECT_DIR$/astc_parent/astc_eureka/astc_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_gateway/astc_gateway.iml" filepath="$PROJECT_DIR$/astc_parent/astc_gateway/astc_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_parent.iml" filepath="$PROJECT_DIR$/astc_parent/astc_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service/astc_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_api.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_file/astc_service_file.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service/astc_service_file/astc_service_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_shangpin/astc_service_shangpin.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service/astc_service_shangpin/astc_service_shangpin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_shangpin_api/astc_service_shangpin_api.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_shangpin_api/astc_service_shangpin_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_web/astc_web.iml" filepath="$PROJECT_DIR$/astc_parent/astc_web/astc_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code-template/code-template.iml" filepath="$PROJECT_DIR$/code-template/code-template.iml" />
+    </modules>
+  </component>
+</project>
