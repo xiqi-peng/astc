@@ -15,6 +15,7 @@
     <modules>
         <module>astc_service_shangpin</module>
         <module>astc_service_file</module>
+        <module>astc_service_canal</module>
     </modules>
     <dependencies>
         <dependency>

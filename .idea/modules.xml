@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_parent.iml" filepath="$PROJECT_DIR$/astc_parent/astc_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service/astc_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_api.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_canal/astc_service_canal.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service/astc_service_canal/astc_service_canal.iml" />
       <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_file/astc_service_file.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service/astc_service_file/astc_service_file.iml" />
       <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_shangpin/astc_service_shangpin.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service/astc_service_shangpin/astc_service_shangpin.iml" />
       <module fileurl="file://$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_shangpin_api/astc_service_shangpin_api.iml" filepath="$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_shangpin_api/astc_service_shangpin_api.iml" />
