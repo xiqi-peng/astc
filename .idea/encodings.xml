@@ -8,9 +8,11 @@
     <file url="file://$PROJECT_DIR$/astc_parent/astc_gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/astc_parent/astc_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_canal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_content" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_file" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/astc_parent/astc_service/astc_service_shangpin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/astc_parent/astc_service_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_content_api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/astc_parent/astc_service_api/astc_service_shangpin_api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/astc_parent/astc_web" charset="UTF-8" />
   </component>

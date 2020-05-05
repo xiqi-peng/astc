@@ -23,5 +23,12 @@
             <artifactId>starter-canal</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <!--content依赖-->
+        <dependency>
+            <groupId>com.pxq</groupId>
+            <artifactId>astc_service_content_api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>
