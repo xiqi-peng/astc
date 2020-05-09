@@ -21,30 +21,33 @@ import java.util.List;
  **/
 @CanalEventListener
 public class ContentDataEventListener {
-    @Autowired(required = false)
+    @Autowired
     private ContentFeign contentFeign;
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
     // 自定义监听器
-    @ListenPoint(destination = "example", schema = "changgou_content", table = {"tb_content"},
+    @ListenPoint(destination = "example", schema = {"changgou_content"}, table = {"tb_content"},
             eventType = {CanalEntry.EventType.INSERT, CanalEntry.EventType.UPDATE})
-    public void onEventContent(CanalEntry.EntryType entryType, CanalEntry.RowData rowData){
-        // 获取分类id
-        String categoryId = getColumnValue(rowData, "category_id");
-        // 通过分类id查询广告列表
-        Result<List<Content>> result = contentFeign.findContentsByCategoryId(Long.parseLong(categoryId));
-        // 存入redis
-        stringRedisTemplate.boundValueOps("content_" + categoryId).set(JSON.toJSONString(result.getData()));
+    public void enventContentData(CanalEntry.EntryType entryType, CanalEntry.RowData rowData){
+        // 获取广告分类id
+        String category_id = getCategoryId(rowData, "category_id");
+        // 获取广告列表数据
+        Result result = contentFeign.findContentsByCategoryId(Long.parseLong(category_id));
+        List<Content> list = (List<Content>) result.getData();
+        // 将数据写入redis
+        stringRedisTemplate.boundValueOps("content_" + category_id).set(JSON.toJSONString(list));
     }
 
-    // 获取对应列的值
-    private String getColumnValue(CanalEntry.RowData rowData, String columnName) {
-        List<CanalEntry.Column> list = rowData.getAfterColumnsList();
-        for (CanalEntry.Column column : list) {
-            if (columnName.equals(column.getName())){
-                return column.getValue();
+    private String getCategoryId(CanalEntry.RowData rowData, String category_id) {
+        List<CanalEntry.Column> afterColumnsList = rowData.getAfterColumnsList();
+        if (afterColumnsList != null && afterColumnsList.size() > 0){
+            for (CanalEntry.Column column : afterColumnsList) {
+                String columnName = column.getName();
+                if (category_id.equals(columnName)){
+                    return column.getValue();
+                }
             }
         }
         return null;
