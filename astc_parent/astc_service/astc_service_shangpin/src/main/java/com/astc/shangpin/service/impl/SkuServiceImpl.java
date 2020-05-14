@@ -203,4 +203,17 @@ public class SkuServiceImpl implements SkuService {
     public List<Sku> findAll() {
         return skuMapper.selectAll();
     }
+
+    /**
+     * 将正常状态的库存信息保存到索引库
+     * @param status
+     * @return
+     */
+    @Override
+    public List<Sku> findSkuByStatus(String status) {
+        Sku sku = new Sku();
+        sku.setStatus(status);
+        List<Sku> list = skuMapper.select(sku);
+        return list;
+    }
 }

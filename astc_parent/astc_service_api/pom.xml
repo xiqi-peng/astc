@@ -14,6 +14,7 @@
     <modules>
         <module>astc_service_shangpin_api</module>
         <module>astc_service_content_api</module>
+        <module>astc_service_search_api</module>
     </modules>
     <dependencies>
         <!--通用的common-->
