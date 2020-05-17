@@ -11,7 +11,7 @@ import java.util.List;
 
 @FeignClient(name = "shangpin")
 @RequestMapping("/sku")
-public interface skuFeign {
+public interface SkuFeign {
     @GetMapping("/findSkuByStatus/{status}")
     Result<List<Sku>> findSkuByStatus(@PathVariable(value = "status") String status);
 }
