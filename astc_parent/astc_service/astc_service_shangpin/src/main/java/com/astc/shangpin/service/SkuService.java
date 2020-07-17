@@ -67,5 +67,10 @@ public interface SkuService {
      */
     List<Sku> findAll();
 
+    /**
+     * 将正常状态的库存信息保存到索引库
+     * @param status
+     * @return
+     */
     List<Sku> findSkuByStatus(String status);
 }
